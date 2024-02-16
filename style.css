@@ -1,0 +1,69 @@
+@media (min-width: 550px) {
+    #navbar-custom{
+        width: 40rem;
+        margin-left: 30%;
+        margin-top: 2rem;
+        border-radius: 25rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+@font-face {
+    font-family: BaksoSapi;
+    src: url(./fonts/BaksoSapi.otf);
+}
+@font-face {
+    font-family: kaleko;
+    src: url(./fonts/Kaleko105Heavy.ttf);
+}
+
+#footer{
+    width: 100%;
+    height: 7rem;
+    background-color: #6b739f;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+
+#logo-quem-somos{
+    margin-left: 5rem;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%; 
+    margin-top: 5rem;
+}
+.nav-link{
+    color: #6E070F !important;
+    font-family: kaleko;
+    font-size: 1.3rem !important;
+    margin-left: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+.container-flex-comoajudar{
+display: flex;
+justify-content: space-around;
+
+}
+.intem-grid{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25rem;
+}
+.img-como-ajudar{
+    width: 10rem ;
+    border-radius: 100%;
+}
+.h1-item-grid{
+    font-family:BaksoSapi;
+    font-size: 4rem;
+}
+
+.icons{
+width: 2rem;
+}
