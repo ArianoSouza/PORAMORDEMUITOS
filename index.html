@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>HOME</title>
+</head>
+<body>
+    <!--HEADER-->
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="navbar-custom">
+        <div class="container-fluid justify-content-end">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarNav">
+            <a href="#"><img style="width: 4rem; margin-right: 1rem;" src="./images/poramordemuitoslogo.png" alt=""></a>
+            <ul class="nav nav-underline">
+                <li class="nav-item">
+                  <a class="nav-link" href="#sobre">SOBRE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">DOAÇÕES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">AÇÕES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTATO</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+    
+
+      <!-- DESTAQUES-->
+      <div style="background-color: white; width: 25rem; height: 25rem; position: absolute; z-index: 1; margin-left: 37%; margin-top: 10rem; border-radius: 100%;">
+        <img style="width: 28rem; margin-left: -1.8rem; margin-top: -1.5rem;" src="./images/teste2.png" alt="">
+      </div>
+       
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/iStock-966783104.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+  <!--Quem somos-->
+  
+<div  id="sobre" style="width: 100%; height: 50rem; display: flex;">
+    <img src="./images/quemsomos1.png" alt="aaaa" style="z-index: -1; position: absolute; width: 100%;">
+    <img id= "logo-quem-somos" src="./images/logodestaques.png" alt="">
+    <div style="height: 100%; width: 100%; padding: 2rem; margin-top: 5rem;">
+      <h1 style="font-size: 5rem; font-family:  BaksoSapi;">Sobre o Projeto:</h1>
+      <p style="font-size: 2rem; font-family:  BaksoSapi;"> somos uma ong</p>
+    </div>
+</div>
+
+  <!-- COMO DOAR-->
+<div style="display: flex;">
+  <div style=" width: 100%; height: 38rem; display: flex; flex-direction: column;">
+    <div style="display: flex; width: 100%; justify-content: center;" >
+      <h1 style="font-family: kaleko; color: #F1EBDB; ;">Como posso ajudar?</h1>
+    </div>
+    <div class="container-flex-comoajudar">
+      <div class="intem-grid">
+        <h1 class="h1-item-grid">tal forma</h1>
+        <img src="./images/logodestaques.png" alt=""  class="img-como-ajudar">
+        <p> descrição</p>
+      </div>
+      <div class="intem-grid">
+        <h1 class="h1-item-grid">tal forma</h1>
+        <img src="./images/logodestaques.png" alt=""  class="img-como-ajudar">
+        <p> descrição</p>
+      </div>
+      <div class="intem-grid"> 
+        <h1 class="h1-item-grid">tal forma</h1>
+        <img src="./images/logodestaques.png" alt=""  class="img-como-ajudar">
+        <p> descrição</p>
+      </div>
+    </div>
+    <div class="container-flex-comoajudar">
+      <div class="intem-grid" style="margin-left: 10rem;">
+        <h1 class="h1-item-grid">tal forma</h1>
+        <img src="./images/logodestaques.png" alt=""  class="img-como-ajudar">
+        <p> descrição</p>
+      </div>
+      <div class="intem-grid" style="margin-right: 10rem;">
+        <h1 class="h1-item-grid">tal forma</h1>
+        <img src="./images/logodestaques.png" alt=""  class="img-como-ajudar">
+        <p> descrição</p>
+      </div>
+      </div>
+  </div>
+ </div>
+
+<!-- AÇÕES-->
+<div style="display: flex; height: 65rem;">
+  <img src="./images/destaques2.png" alt="aaaa" style="z-index: -1; position: absolute; width: 100%;">
+  <div style="width: 100%; height: 45rem; display: flex; flex-direction: column;">
+    <h1 style="margin-top: 20rem;">ações</h1>
+    <div class="card-group">
+      <div class="card">
+        <img src="./images/logodestaques.png" class="card-img-top" alt="..." style="width: 10rem;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/logodestaques.png" class="card-img-top" alt="..." style="width: 10rem;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./images/logodestaques.png" class="card-img-top" alt="..." style="width: 10rem;">
+        <div class="card-body">
+          <h5 class="card-title">ação3</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+<!-- FOOTER-->
+<div id="footer">
+  <div style="display: flex; align-items: center;">
+    <img src="./images/logodestaques.png" alt="" style="width: 5rem;">
+    <p style="font-family: BaksoSapi; font-size: 2rem; margin-top: 0.7rem; margin-left: 1rem;">POR AMOR DE MUITOS</p>
+  </div>
+  <div style="display: flex; align-items: center; justify-content: space-around; width: 18rem;">
+    <h2 style="font-family: BaksoSapi; font-size: 2rem; margin-top: 0.7rem;"> contato:   </h2>
+    <a href=""><img src="./images/whatsapp.svg" alt="" class="icons"></a>
+    <a href=""><img src="./images/instagram.svg" alt="" class="icons"></a>
+  </div>
+</div>
+
+
+ <!-- <div style="display: flex; flex-direction: column; width: 100%;">
+      <button style="width: 150px;" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          1
+      </button>
+      <div style="width: 50rem;" class="collapse" id="collapseExample">
+        <div class="card card-body">
+          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+      </div> -->
+ 
+
+</body>
+</html>
