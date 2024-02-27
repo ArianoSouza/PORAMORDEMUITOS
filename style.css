@@ -1,13 +1,3 @@
-@media (min-width: 550px) {
-    #navbar-custom{
-        width: 40rem;
-        margin-left: 30%;
-        margin-top: 2rem;
-        border-radius: 25rem;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-}
 @font-face {
     font-family: BaksoSapi;
     src: url(./fonts/BaksoSapi.otf);
@@ -17,53 +7,340 @@
     src: url(./fonts/Kaleko105Heavy.ttf);
 }
 
-#footer{
-    width: 100%;
-    height: 7rem;
-    background-color: #6b739f;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+@media (min-width: 550px) {
+    #navbar-custom{
+        width: 40rem;
+        margin-left: 30%;
+        margin-top: 2rem;
+        border-radius: 25rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
 
+}
+@media (max-width:550px) {
+    #navbar-custom{
+        visibility: hidden;
+    }
+    .titles{
+        font-family: BaksoSapi;
+        font-size: 2rem;
+    }
+    #destaques{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 172px;
     
+    }
+    #fundo-logo-destaques{
+        width: 12rem;
+        background-color: #6B739F;
+        display: flex;
+        justify-content: center;
+        border-radius: 100%;
+        height: 12rem;
+        margin-top: 3rem;
+    }
+    #logo-destaques{
+        width: 100%;
+        margin-left: -0.5rem;
+        
+    }
+    #img-destaques{
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        }
+    #quem-somos{
+        margin-top: 17rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #fundo-1{
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        margin-top: -10rem;
+    }
+    #fundo-2{
+        margin-top: -10rem;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+    #fundo-web{
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+    #quem-somos-first{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       margin-top: 10rem;
+       text-align: center;
+       font-family: 'Montserrat';
+       
+    }
+    #quem-somos-first-h1p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-align: justify;
+    }
+    #img-esp-quems-somos1{
+        width: 60%;
+        margin-bottom: -2rem;
+    }
+    .img-quem-somos{
+        width: 50%;
+        border-radius: 100%;
+    }
+    .quem-somos-seconds{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+       text-align: justify;
+       padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    #como-ajudar{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Montserrat';
+        color: white;
+    }
+    #title-como-ajudar{
+        margin-top: 8rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .h2-como-ajudar{
+        text-align: center;
+    }
+    .divs-como-ajudar{
+        text-align: justify;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #ul-como-ajudar{
+        text-align: left;
+    }
+    #ações{
+        margin-top: 7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer{
+        margin-top: 5rem;
+        width: 100%;
+        height: 5rem;
+        background-color:#6B739F ;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    #logo-footer{
+        width: 13rem;
+    }
+    #contato{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .redes-sociais{
+        font-size: 2.2rem !important;
+     color: rgb(27, 27, 27);
+    }
+}
+@media (min-width: 550px) {
+    #navbar-custom{
+        width: 40rem;
+        margin-left: 30%;
+        margin-top: 2rem;
+        border-radius: 25rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .titles{
+        font-family: BaksoSapi;
+        font-size: 4rem;
+    }
+#destaques{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1035px;
+}
+#img-destaques{
+    width: 100%;
+    position: absolute;
+        z-index: -1;
+}
+#logo-destaques{
+    width: 100%;
+    margin-left: -0.5rem;
 }
 
-#logo-quem-somos{
-    margin-left: 5rem;
-    width: 25rem;
-    height: 25rem;
-    border-radius: 50%; 
-    margin-top: 5rem;
+#fundo-logo-destaques{
+    width: 40%;
+    background-color: #6B739F;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    height: fit-content;
+    margin-top: -10%;
+}
+#fundo-1{
+    width: 100%;
+}
+
+.logo-header{
+    width: 6rem; 
+    margin-right: 1rem;
 }
 .nav-link{
-    color: #6E070F !important;
-    font-family: kaleko;
-    font-size: 1.3rem !important;
-    margin-left: 0.5rem;
-    margin-top: 0.3rem;
+    font-family: BaksoSapi;
+    font-size: 1.5rem !important;
+    color: #6B739F !important;
 }
-
-.container-flex-comoajudar{
-display: flex;
-justify-content: space-around;
-
+#fundo-1{
+    height: 0px;
+    visibility: hidden;
 }
-.intem-grid{
-    background-color: blue;
+#fundo-2{
+    visibility: hidden;
+    height: 0px;
+}
+#fundo-web{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+#quem-somos{
+    margin-top: 17rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25rem;
 }
-.img-como-ajudar{
-    width: 10rem ;
+.img-quem-somos{
+    width: 20%;
     border-radius: 100%;
 }
-.h1-item-grid{
-    font-family:BaksoSapi;
-    font-size: 4rem;
+#quem-somos-first{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-top: 10rem;
+   text-align: center;
+   font-family: 'Montserrat';
+   font-size: 1.5rem;
+}
+#quem-somos-first-h1p{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   text-align: justify;
+   padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.quem-somos-seconds{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   text-align: justify;
+   padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 5rem;
+}
+.p-quem-somos-seconds{
+    padding-right: 3rem;
+    padding-left: 5rem;
 }
 
-.icons{
-width: 2rem;
+#como-ajudar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+    color: white;
+    height: 45rem;
+}
+#title-como-ajudar{
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.h2-como-ajudar{
+    text-align: center;
+}
+.divs-como-ajudar{
+    margin-top: 5rem;
+    width: 65%;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#ul-como-ajudar{
+    text-align: left;
+}
+#ações{
+    margin-top: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#div-ações{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center !important;
+}
+.card{
+    width: 35% !important;
+}
+#footer{
+    margin-top: 5rem;
+    width: 100%;
+    height: 9rem;
+    background-color:#6B739F ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#logo-footer{
+    width: 25rem;
+}
+#contato{
+    margin-right: 8rem;
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.redes-sociais{
+    font-size: 2.2rem !important;
+ color: rgb(27, 27, 27);
+}
 }
