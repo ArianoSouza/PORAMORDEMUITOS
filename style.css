@@ -142,6 +142,23 @@
         flex-direction: column;
         align-items: center;
     }
+    #h5-carossel-cell{
+        font-family: BaksoSapi !important;
+        font-size: 3rem !important;
+        color: #B50D0D;
+        background-color: white;
+        border-radius: 15px;
+        }
+    #p-carrosel-cell{
+        font-family: 'Montserrat' !important;
+        font-size: 1rem;
+        color: #B50D0D;
+        background-color: white;
+        border-radius: 15px;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        }
     #footer{
         margin-top: 5rem;
         width: 100%;
@@ -201,7 +218,7 @@
 
 #fundo-logo-destaques{
     width: 40%;
-    background-color: #6B739F;
+    background-color: white;
     display: flex;
     justify-content: center;
     border-radius: 100%;
@@ -357,4 +374,30 @@
     font-size: 2.2rem !important;
  color: rgb(27, 27, 27);
 }
+.carousel {
+    width: 50% !important;
+}
+#h5-carossel{
+font-family: BaksoSapi !important;
+font-size: 3rem !important;
+color: #B50D0D;
+background-color: white;
+border-radius: 15px;
+}
+#p-carrosel{
+font-family: 'Montserrat' !important;
+font-size: 1rem;
+color: #B50D0D;
+background-color: white;
+border-radius: 15px;
+text-align: center;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+#h5-carossel-cell{
+   visibility: hidden;
+    }
+#p-carrosel-cell{
+    visibility: hidden;
+    }
 }
