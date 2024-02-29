@@ -185,26 +185,29 @@
     }
 }
 @media (min-width: 550px) {
+    
     #navbar-custom{
-        width: 40rem;
-        margin-left: 30%;
+        width: 30%;
         margin-top: 2rem;
         border-radius: 25rem;
         padding-top: 0px;
         padding-bottom: 0px;
+        margin-left: 35%;
     }
 
     .titles{
         font-family: BaksoSapi;
         font-size: 4rem;
     }
+
 #destaques{
     margin-top: -20px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1035px;
+    height:fit-content;
+    margin-bottom: 8%;
 }
 #img-destaques{
     width: 100%;
@@ -223,7 +226,7 @@
     justify-content: center;
     border-radius: 100%;
     height: fit-content;
-    margin-top: -10%;
+    margin-top: 10%;
 }
 #fundo-1{
     width: 100%;
@@ -251,19 +254,26 @@
     width: 100%;
     position: absolute;
     z-index: -1;
+    height: fit-content;
 }
 #quem-somos{
-    margin-top: 17rem;
+    margin-top: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: fit-content;
+    margin-bottom: 25%;
+    width: 100%;
 }
 #titulo-quem-somos{
     padding-top: 6rem;
-    height: 10rem;
+    height: 5%;
+    width: 30%;
+    
 }
 .img-quem-somos{
     width: 20%;
+    height: fit-content;
     border-radius: 100%;
 }
 #quem-somos-first{
@@ -274,7 +284,7 @@
    margin-top: 5rem;
    text-align: center;
    font-family: 'Montserrat';
-   font-size: 1.5rem;
+   font-size: 2rem;
 }
 #quem-somos-first-h1p{
     display: flex;
@@ -305,10 +315,11 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Montserrat';
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 500;
     color: white;
-    height: 45rem;
+    height: 100%;
+    margin-bottom: 15%;
 }
 #title-como-ajudar{
     margin-top: 10rem;
@@ -320,6 +331,7 @@
 }
 .h2-como-ajudar{
     text-align: center;
+    font-size: 3rem;
 }
 .divs-como-ajudar{
     margin-top: 5rem;
@@ -371,7 +383,7 @@
     justify-content: space-around;
 }
 .redes-sociais{
-    font-size: 2.2rem !important;
+    font-size: 3rem !important;
  color: rgb(27, 27, 27);
 }
 .carousel {
@@ -379,14 +391,14 @@
 }
 #h5-carossel{
 font-family: BaksoSapi !important;
-font-size: 3rem !important;
+font-size: 4rem !important;
 color: #B50D0D;
 background-color: white;
 border-radius: 15px;
 }
 #p-carrosel{
 font-family: 'Montserrat' !important;
-font-size: 1rem;
+font-size: 1.5rem;
 color: #B50D0D;
 background-color: white;
 border-radius: 15px;
