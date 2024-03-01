@@ -70,7 +70,7 @@
         position: absolute;
         z-index: -1;
     }
-    #fundo-web{
+    .fundos-web{
         visibility: hidden;
         height: 0px;
         width: 0px;
@@ -185,14 +185,18 @@
     }
 }
 @media (min-width: 550px) {
-    
+    #nav-bar-ajust{
+        width: 100%;
+        display: flex !important; 
+        justify-content: center !important;
+    }
     #navbar-custom{
-        width: 30%;
+        width: 38rem;
         margin-top: 2rem;
         border-radius: 25rem;
         padding-top: 0px;
         padding-bottom: 0px;
-        margin-left: 35%;
+    
     }
 
     .titles{
@@ -249,15 +253,11 @@
     visibility: hidden;
     height: 0px;
 }
-#fundo-web{
-    margin-top: -20px;
+.fundos-web{
     width: 100%;
-    position: absolute;
-    z-index: -1;
-    height: fit-content;
 }
+
 #quem-somos{
-    margin-top: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -266,9 +266,9 @@
     width: 100%;
 }
 #titulo-quem-somos{
-    padding-top: 6rem;
     height: 5%;
-    width: 30%;
+    width: 50vw;
+    margin-left: 15vw;
     
 }
 .img-quem-somos{
@@ -311,6 +311,7 @@
 }
 
 #como-ajudar{
+    background-color:#1B9D85;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -319,10 +320,9 @@
     font-weight: 500;
     color: white;
     height: 100%;
-    margin-bottom: 15%;
 }
 #title-como-ajudar{
-    margin-top: 10rem;
+    background-color: #1B9D85;
     padding-top: 6rem;
     display: flex;
     justify-content: center;
@@ -344,13 +344,12 @@
     text-align: left;
 }
 #ações{
-    margin-top: 18rem;
+    margin-top: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 #title-ações{
-    padding-top: 6.5rem;
     height: 10rem;
 }
 #div-ações{
@@ -391,14 +390,14 @@
 }
 #h5-carossel{
 font-family: BaksoSapi !important;
-font-size: 4rem !important;
+font-size: 3vw !important;
 color: #B50D0D;
 background-color: white;
 border-radius: 15px;
 }
 #p-carrosel{
 font-family: 'Montserrat' !important;
-font-size: 1.5rem;
+font-size: 1vw;
 color: #B50D0D;
 background-color: white;
 border-radius: 15px;
