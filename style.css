@@ -35,7 +35,7 @@
     }
     #fundo-logo-destaques{
         width: 12rem;
-        background-color: #6B739F;
+        background-color: white;
         display: flex;
         justify-content: center;
         border-radius: 100%;
