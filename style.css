@@ -30,7 +30,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        height: 172px;
+        height: 298px;
     
     }
     #fundo-logo-destaques{
@@ -53,27 +53,16 @@
         z-index: -1;
         }
     #quem-somos{
-        margin-top: 15.5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    #fundo-1{
-        width: 100%;
-        position: absolute;
-        z-index: -1;
-        margin-top: -10rem;
-    }
-    #fundo-2{
-        margin-top: -9.5rem;
-        width: 100%;
-        position: absolute;
-        z-index: -1;
+    #titulo-quem-somos{
+        margin-top: 2rem;
     }
     .fundos-web{
-        visibility: hidden;
-        height: 0px;
-        width: 0px;
+        width: 100%;
+        margin-top: -0.2rem;
     }
     #quem-somos-first{
         width: 100%;
@@ -101,6 +90,8 @@
     .img-quem-somos{
         width: 50%;
         border-radius: 100%;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
     }
     .quem-somos-seconds{
         width: 100%;
@@ -112,18 +103,21 @@
         padding-right: 1.5rem;
     }
     #como-ajudar{
-        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         font-family: 'Montserrat';
         color: white;
+        background-color: #1B9D85;
+        margin-top: -0.2rem;
+        padding-top: 2rem;
     }
     #title-como-ajudar{
-        margin-top: 8rem;
         display: flex;
         justify-content: center;
         color: white;
+        background-color: #1B9D85;
+        margin-top: -0.5rem;
     }
     .h2-como-ajudar{
         text-align: center;
