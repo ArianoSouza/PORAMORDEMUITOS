@@ -152,6 +152,7 @@
         text-align: center;
         padding-left: 1rem;
         padding-right: 1rem;
+        font-weight: 500;
         }
     #footer{
         margin-top: 5rem;
@@ -394,12 +395,15 @@ border-radius: 15px;
 #p-carrosel{
 font-family: 'Montserrat' !important;
 font-size: 1vw;
+font-weight: 500;
 color: #B50D0D;
 background-color: white;
 border-radius: 15px;
 text-align: center;
 padding-left: 1rem;
 padding-right: 1rem;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
 }
 #h5-carossel-cell{
    visibility: hidden;
