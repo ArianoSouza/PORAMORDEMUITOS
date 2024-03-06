@@ -163,7 +163,7 @@
         margin-top: 5rem;
         width: 100%;
         height: 5rem;
-        background-color:#6B739F ;
+        background-color:#1B9D85 ;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -266,6 +266,7 @@
     width: 100%;
 }
 #titulo-quem-somos{
+    padding-top: 8rem;
     height: 5%;
     width: 50vw;
     margin-left: 15vw;
@@ -344,12 +345,13 @@
     text-align: left;
 }
 #ações{
-    margin-top: 10rem;
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 #title-ações{
+    padding-top: 8rem;
     height: 10rem;
 }
 #div-ações{
@@ -364,7 +366,7 @@
     margin-top: 5rem;
     width: 100%;
     height: 9rem;
-    background-color:#6B739F ;
+    background-color:#1B9D85 ;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -382,7 +384,7 @@
     justify-content: space-around;
 }
 .redes-sociais{
-    font-size: 3rem !important;
+    font-size: 3vw !important;
  color: rgb(27, 27, 27);
 }
 .carousel {
