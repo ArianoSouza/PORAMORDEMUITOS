@@ -122,6 +122,29 @@
     .h2-como-ajudar{
         text-align: center;
     }
+    #div-qrcode{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+    #div-fundo-qrcode{
+        background-color: white;
+        width: 45vw;
+        height: 48vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1.5rem;
+        border-radius: 15px;
+    }
+    #p-qrcode{
+        color: black;
+    }
+    #img-qrcode{
+        width: 40vw;
+    }
     .divs-como-ajudar{
         text-align: justify;
         padding-left: 1rem;
@@ -329,6 +352,34 @@
 .h2-como-ajudar{
     text-align: center;
     font-size: 3rem;
+}
+#div-qrcode{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+#div-fundo-qrcode{
+    background-color: white;
+    width: 22.5vw;
+    height: 22.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding-top: 1.5rem;
+}
+#p-qrcode{
+    color: black;
+}
+#img-qrcode{
+    width: 20vw;
+}
+.divs-como-ajudar{
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .divs-como-ajudar{
     margin-top: 5rem;
